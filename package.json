@@ -12,6 +12,11 @@
   },
   "author": "B-kash",
   "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
   "bugs": {
     "url": "https://github.com/B-kash/node-chat-app/issues"
   },
