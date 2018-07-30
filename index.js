@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const http = require('http').Server(app);
-const io = require('socket.io')(http);
+const io = require('socket.io')(http); //just adding new comments
 // const MongoClient = require('mongodb').MongoClient
 
 app.use(bodyParser.urlencoded({ extended: true }))
